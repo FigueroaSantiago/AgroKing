@@ -1,0 +1,14 @@
+{
+  "note": "Coloca tus imágenes de productos aquí",
+  "required_images": [
+    "hero-1.jpg",
+    "hero-2.jpg",
+    "hero-3.jpg",
+    "trepador-300.jpg",
+    "4x4-faretty.jpg",
+    "minitractor.jpg",
+    "trepador-fn.jpg",
+    "racing-330.jpg",
+    "piladora.jpg"
+  ]
+}
