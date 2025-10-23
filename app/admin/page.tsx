@@ -35,6 +35,8 @@ export default function AdminPage() {
         .from("whatsapp_clicks")
         .select("*")
         .order("clicked_at", { ascending: false })
+        
+        console.log("👉 Datos obtenidos:", allClicks)
 
       if (!allClicks) return
 

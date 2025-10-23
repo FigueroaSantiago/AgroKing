@@ -15,7 +15,7 @@ export default function DiscountBanner() {
             size="lg"
             variant="secondary"
             className="bg-white text-green-700 hover:bg-neutral-100"
-            onClick={() => window.open("https://wa.me/573001234567", "_blank")}
+            onClick={() => window.open("https://wa.me/573042258516", "_blank")}
           >
             Solicitar Descuento
           </Button>

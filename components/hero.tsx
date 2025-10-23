@@ -10,6 +10,11 @@ const slides = [
     title: "Maquinaria Agrícola de Calidad",
     subtitle: "Equipos confiables para tu campo",
   },
+    {
+    image: "/images/grupo_trabajo.jpg",
+    title: "Atención Personalizada",
+    subtitle: "Mereces el mejor servicio.",
+  },
   {
     image: "/images/cuatrimoto-de-carga.jpg",
     title: "Motores Potentes",
@@ -20,6 +25,7 @@ const slides = [
     title: "Tractores y Más",
     subtitle: "Todo lo que necesitas para tu trabajo",
   },
+
 ]
 
 export default function Hero() {
@@ -54,7 +60,7 @@ export default function Hero() {
                 <Button
                   size="lg"
                   className="bg-green-600 hover:bg-green-700 text-white"
-                  onClick={() => window.open("https://wa.me/573001234567", "_blank")}
+                  onClick={() => window.open("https://wa.me/573042258516", "_blank")}
                 >
                   Consultar por WhatsApp
                 </Button>

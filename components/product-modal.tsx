@@ -10,7 +10,7 @@ interface ProductModalProps {
   product: Product | null
   isOpen: boolean
   onClose: () => void
-  onWhatsAppClick: (productName: string, productId: number) => void
+  onWhatsAppClick: (productName: string, productId: number, productPrice: string) => void
 }
 
 export default function ProductModal({ product, isOpen, onClose, onWhatsAppClick }: ProductModalProps) {
@@ -124,7 +124,7 @@ export default function ProductModal({ product, isOpen, onClose, onWhatsAppClick
             <Button
               className="w-full bg-green-600 hover:bg-green-700 text-base py-5 mt-4"
               onClick={() => {
-                onWhatsAppClick(product.name, product.id)
+                onWhatsAppClick(product.name, product.id, product.price)
                 onClose()
               }}
             >

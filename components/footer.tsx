@@ -30,18 +30,13 @@ export default function Footer() {
             <h4 className="font-semibold text-lg mb-4">Enlaces Rápidos</h4>
             <ul className="space-y-2 text-neutral-400">
               <li>
-                <a href="#productos" className="hover:text-green-500 transition-colors">
+                <a href="/productos" className="hover:text-green-500 transition-colors">
                   Productos
                 </a>
               </li>
               <li>
-                <a href="#nosotros" className="hover:text-green-500 transition-colors">
+                <a href="/nosotros" className="hover:text-green-500 transition-colors">
                   Nosotros
-                </a>
-              </li>
-              <li>
-                <a href="#contacto" className="hover:text-green-500 transition-colors">
-                  Contacto
                 </a>
               </li>
             </ul>
@@ -52,11 +47,11 @@ export default function Footer() {
             <ul className="space-y-3 text-neutral-400">
               <li className="flex items-center gap-2">
                 <Phone className="w-4 h-4 text-green-500" />
-                <span>+57 300 123 4567</span>
+                <span>+57 304 225 8516</span>
               </li>
               <li className="flex items-center gap-2">
                 <Mail className="w-4 h-4 text-green-500" />
-                <span>ventas@agroking.com</span>
+                <span>agroKingOficial@agroking.com</span>
               </li>
               <li className="flex items-center gap-2">
                 <MapPin className="w-4 h-4 text-green-500" />

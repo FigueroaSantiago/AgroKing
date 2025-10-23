@@ -1,3 +1,4 @@
+-- Active: 1724213515031@@127.0.0.1@3306
 -- Create table for tracking WhatsApp clicks
 CREATE TABLE IF NOT EXISTS whatsapp_clicks (
   id BIGSERIAL PRIMARY KEY,

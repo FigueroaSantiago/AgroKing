@@ -3,6 +3,7 @@
 import { useState } from "react"
 import { Menu, X, Phone } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import Link from "next/link"
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -14,7 +15,7 @@ export default function Header() {
           <p>Envíos a todos los países</p>
           <div className="flex items-center gap-2">
             <Phone className="w-4 h-4" />
-            <span>+57 300 123 4567</span>
+            <span>+57 304 225 8516</span>
           </div>
         </div>
       </div>
@@ -27,18 +28,15 @@ export default function Header() {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-8">
-            <a href="#productos" className="hover:text-green-700 transition-colors">
+            <a href="/productos" className="hover:text-green-700 transition-colors">
               Productos
             </a>
-            <a href="#nosotros" className="hover:text-green-700 transition-colors">
+            <a href="/nosotros" className="hover:text-green-700 transition-colors">
               Nosotros
-            </a>
-            <a href="#contacto" className="hover:text-green-700 transition-colors">
-              Contacto
             </a>
             <Button
               className="bg-green-600 hover:bg-green-700"
-              onClick={() => window.open("https://wa.me/573001234567", "_blank")}
+              onClick={() => window.open("https://wa.me/3042258516", "_blank")}
             >
               WhatsApp
             </Button>
@@ -76,7 +74,7 @@ export default function Header() {
             </a>
             <Button
               className="w-full bg-green-600 hover:bg-green-700"
-              onClick={() => window.open("https://wa.me/573001234567", "_blank")}
+              onClick={() => window.open("https://wa.me/573042258516", "_blank")}
             >
               WhatsApp
             </Button>

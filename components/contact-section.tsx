@@ -22,14 +22,14 @@ export default function ContactSection() {
                 <Phone className="w-5 h-5 text-green-600 mt-1" />
                 <div>
                   <p className="font-medium">Teléfono</p>
-                  <p className="text-muted-foreground">+57 300 123 4567</p>
+                  <p className="text-muted-foreground">+57 304 225 8516</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
                 <Mail className="w-5 h-5 text-green-600 mt-1" />
                 <div>
                   <p className="font-medium">Email</p>
-                  <p className="text-muted-foreground">ventas@agroking.com</p>
+                  <p className="text-muted-foreground">agroKingOficial@agroking.com</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
@@ -50,7 +50,7 @@ export default function ContactSection() {
               size="lg"
               variant="secondary"
               className="bg-white text-green-700 hover:bg-neutral-100"
-              onClick={() => window.open("https://wa.me/573001234567", "_blank")}
+              onClick={() => window.open("https://wa.me/573042258516", "_blank")}
             >
               Abrir WhatsApp
             </Button>
